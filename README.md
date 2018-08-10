@@ -1,1 +1,0 @@
-# igs-mini-comp
