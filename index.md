@@ -3,7 +3,7 @@
 ## Competition
  
  - SpySpheres 2D
- - Manual: https://goo.gl/igu9Bx
+ - [Game Manual Link](https://goo.gl/igu9Bx)
 
 ## Dates
 
@@ -17,6 +17,7 @@ Final Round | 2018-08-07
 ## Teams
 
 ### Team: Death by Stalkery
+
  - Perri
  - Tom
  - India
@@ -25,9 +26,9 @@ Final Round | 2018-08-07
 
 ### Team: /kill @e[name=!commandBlock]
 
- - Luke (not mentor Luke)
+ - Luke O
  - Jake
- - Jake
+ - The other Jake
  - Emil
  - Donovan
  - Louis
