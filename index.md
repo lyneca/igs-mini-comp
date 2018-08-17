@@ -32,4 +32,5 @@ Final Round | 2018-08-07
  - Emil
  - Donovan
  - Louis
+ - Max
 
