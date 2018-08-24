@@ -10,8 +10,7 @@
 Event | Date
 ---|---
 Competition Start | 2018-08-10
-First Round | 2018-08-24
-Second Round | 2018-08-31
+First Round | 2018-08-31
 Final Round | 2018-08-07
 
 ## Code
