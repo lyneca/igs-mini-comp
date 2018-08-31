@@ -3,7 +3,7 @@
 ## Competition
  
  - SpySpheres 2D
- - [Game Manual Link](https://goo.gl/igu9Bx)
+ - [Game Manual Link](http://static.zerorobotics.mit.edu/docs/hs/3DManualZRHS2015.pdf)
 
 ## Dates
 
