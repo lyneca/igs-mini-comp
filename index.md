@@ -32,7 +32,7 @@ void getAttToTarget(float returnArray[], float me[], float target[]) {
 float distance(float a[], float b[]) {
     float tmpArray[3];
     mathVecSubtract(tmpArray, a, b, 2);
-    mathVecNormalize(tmpArray, 2);
+    return mathVecMagnitude(tmpArray, 2);
 }
 ```
 
@@ -55,5 +55,13 @@ float distance(float a[], float b[]) {
  - Donovan
  - Louis
  - Max
+
+## Scores
+
+Team              | Round 1 | Round 2 | Round 3 | Total
+---               | ---     | ---     | ---     | ---
+`/kill`           | 4.909   | 0.340   | 0.370   | 5.619
+Death By Stalkery | 0.110   | 2.388   | 2.586   | 5.084
+
 
 
