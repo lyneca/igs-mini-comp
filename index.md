@@ -26,15 +26,34 @@ void getAttToTarget(float returnArray[], float me[], float target[]) {
 }
 ```
 
+### Multiply a vector by a scalar
+```c
+void mathVecScalarMult(float ret[3], float a[3], float s, int n) {
+    for (int i = 0; i < n; i++) {
+        ret[i] = a[i] * s;
+    }
+}
+```
+
 ### Get Distance Between Points
 
 ```c
-float distance(float a[], float b[]) {
-    float tmpArray[3];
-    mathVecSubtract(tmpArray, a, b, 2);
-    return mathVecMagnitude(tmpArray, 2);
+float distance(float a[3], float b[3]) {
+    float ret[3];
+    mathVecSubtract(ret, a, b, 3);
+    return mathVecMagnitude(ret, 3);
 }
 ```
+
+### Get the midpoint of two positions
+
+```c
+void mathVecMiddle(float ret[3], float a[3], float b[3], int n) {
+    mathVecSubtract(ret, a, b, 3);
+    mathVecScalarMult(ret, ret, 0.5f, n);
+}
+```
+
 
 ## Teams
 
